@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="85.0" prefWidth="478.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.tables.ChangeRowController">
+    <children>
+        <FlowPane fx:id="pane" alignment="CENTER" columnHalignment="CENTER" hgap="5.0" layoutY="61.0" prefHeight="42.0" prefWidth="478.0" vgap="5.0" />
+        <Label fx:id="tableName" alignment="CENTER" contentDisplay="CENTER" layoutX="39.0" prefHeight="28.0" prefWidth="400.0" text="Название таблицы" textAlignment="CENTER">
+            <font>
+                <Font name="Comic Sans MS Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="message" alignment="CENTER" layoutX="105.0" layoutY="29.0" prefHeight="22.0" prefWidth="267.0" text="Изменение записи" textAlignment="CENTER">
+            <font>
+                <Font name="Comic Sans MS Bold" size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="changeRowButton" layoutX="395.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: fff;" stylesheets="@style.css" text="Изменить">
+            <effect>
+                <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+            </effect>
+        </Button>
+        <Button fx:id="backButton" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" style="-fx-background-color: fff;" stylesheets="@style.css" text="Назад">
+            <effect>
+                <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+            </effect>
+        </Button>
+    </children>
+</AnchorPane>

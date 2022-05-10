@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="111.0" prefWidth="620.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.tables.AboutController">
+   <children>
+      <FlowPane fx:id="pane" alignment="TOP_CENTER" hgap="5.0" layoutY="57.0" prefHeight="54.0" prefWidth="620.0" vgap="5.0" />
+      <Button fx:id="backButton" alignment="CENTER" layoutX="42.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="535.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="&lt;---">
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

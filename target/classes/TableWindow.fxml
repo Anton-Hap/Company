@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.tables.TableController">
+   <children>
+      <TableView fx:id="table" layoutY="41.0" prefHeight="288.0" prefWidth="600.0" style="-fx-background-color: #fff; -fx-background-radius: 0;" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
+         <effect>
+            <InnerShadow choke="0.5" height="10.0" radius="4.5" width="10.0" />
+         </effect></TableView>
+      <Button fx:id="removeRecordButton" layoutX="8.0" layoutY="369.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Удалить запись" AnchorPane.leftAnchor="5.0">
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="addRecordButton" layoutX="9.0" layoutY="326.0" mnemonicParsing="false" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Добавить запись" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="5.0">
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="addColumnButton" layoutX="483.0" layoutY="359.0" mnemonicParsing="false" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Добавить столбец" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="removeColumnButton" layoutX="478.0" layoutY="338.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="117.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Удалить столбец" AnchorPane.bottomAnchor="40.0">
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Label fx:id="nameTable" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="147.0" layoutY="11.0" prefHeight="23.0" prefWidth="306.0" text="Название таблицы" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" AnchorPane.topAnchor="11.0">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="changeRecordButton" layoutX="245.0" layoutY="369.0" mnemonicParsing="false" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Изменить запись">
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="backButton" layoutX="5.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Назад" AnchorPane.topAnchor="8.0">
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Label fx:id="messageLabel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="382.0" layoutY="11.0" prefHeight="23.0" prefWidth="204.0" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Comic Sans MS Italic" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="aboutButton" layoutX="245.0" layoutY="334.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Подробнее" AnchorPane.bottomAnchor="40.0">
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="printButton" layoutX="60.0" layoutY="8.0" mnemonicParsing="false" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Печать">
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

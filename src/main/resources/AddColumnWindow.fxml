@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="columnName" prefHeight="281.0" prefWidth="295.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.tables.AddColumnController">
+   <children>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="240.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="69.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Назад">
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="addColumnButton" layoutX="209.0" layoutY="240.0" mnemonicParsing="false" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Добавить">
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Label fx:id="tableName" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="14.0" prefHeight="28.0" prefWidth="288.0" text="Название таблицы" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" alignment="CENTER" focusTraversable="false" layoutX="68.0" layoutY="115.0" prefHeight="26.0" prefWidth="166.0" promptText="Название стобца" style="-fx-background-color: #fff; -fx-background-radius: 50;">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <Label fx:id="message" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="42.0" prefHeight="24.0" prefWidth="282.0" text="Добавить столбец" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="17.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="typeDataBox" focusTraversable="false" layoutX="68.0" layoutY="74.0" prefHeight="26.0" prefWidth="166.0" promptText="Тип данных" style="-fx-background-color: #fff; -fx-background-radius: 50;">
+         <effect>
+            <DropShadow />
+         </effect></ComboBox>
+      <TextField fx:id="longField" alignment="CENTER" focusTraversable="false" layoutX="174.0" layoutY="154.0" prefHeight="20.0" prefWidth="44.0" style="-fx-background-color: #fff; -fx-background-radius: 50;" AnchorPane.topAnchor="148.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="72.0" layoutY="148.0" prefHeight="25.0" prefWidth="89.0" text="Длинна" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="17.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="notNull" layoutX="97.0" layoutY="216.0" mnemonicParsing="false" style="-fx-background-color: #fff; -fx-background-radius: 100;" text="Not Null">
+         <font>
+            <Font name="Comic Sans MS Bold" size="17.0" />
+         </font>
+      </RadioButton>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="52.0" layoutY="180.0" prefHeight="25.0" prefWidth="89.0" text="Default" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="defaultField" alignment="CENTER" focusTraversable="false" layoutX="151.0" layoutY="179.0" prefHeight="26.0" prefWidth="90.0" style="-fx-background-color: #fff; -fx-background-radius: 50;">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+   </children>
+</AnchorPane>

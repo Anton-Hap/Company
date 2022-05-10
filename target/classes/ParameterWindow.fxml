@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="181.0" prefWidth="297.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.request.ParameterController">
+   <children>
+      <Label fx:id="message" alignment="CENTER" layoutX="28.0" layoutY="7.0" prefHeight="28.0" prefWidth="270.0" text="Параметр">
+         <font>
+            <Font name="Comic Sans MS Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="zpField" layoutX="128.0" layoutY="100.0" promptText="Заработная плата" />
+      <ComboBox fx:id="parameterBox" layoutX="52.0" layoutY="100.0" prefHeight="26.0" prefWidth="59.0" visibleRowCount="3" />
+      <Label layoutX="9.0" layoutY="28.0" prefHeight="74.0" prefWidth="309.0" text="Введите ЗП и параметр по кторому надо вывести рабочих" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="nextButton" layoutX="134.0" layoutY="141.0" mnemonicParsing="false" style="-fx-background-color: #fff;" text="Дальше">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="pane" prefHeight="530.0" prefWidth="600.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MenuController">
+   <children>
+      <Button fx:id="technicButton" layoutX="4.0" layoutY="18.0" mnemonicParsing="false" prefHeight="60.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Техника" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="305.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Label layoutX="270.0" layoutY="1.0" text="Таблицы" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="270.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Label>
+      <Line endX="126.39999389648438" endY="-5.7220458984375E-6" layoutX="94.0" layoutY="9.0" startX="-130.3000030517578" startY="-5.7220458984375E-6" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="10.0" />
+      <Line endX="126.39999389648438" endY="-5.7220458984375E-6" layoutX="466.0" layoutY="14.0" startX="-130.3000030517578" startY="-5.7220458984375E-6" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+      <Line endX="126.39999389648438" endY="-5.7220458984375E-6" layoutX="466.0" layoutY="309.0" startX="-130.3000030517578" startY="-5.7220458984375E-6" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="310.0" />
+      <Line endX="126.39999389648438" endY="-5.7220458984375E-6" layoutX="112.0" layoutY="311.0" startX="-130.3000030517578" startY="-5.7220458984375E-6" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="310.0" />
+      <Button fx:id="workerButton" layoutX="403.0" layoutY="18.0" mnemonicParsing="false" prefHeight="60.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Рабочие" AnchorPane.leftAnchor="305.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="repairButton" layoutX="89.0" layoutY="94.0" mnemonicParsing="false" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Виды ремонта" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="305.0" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="suppliersButton" layoutX="388.0" layoutY="89.0" mnemonicParsing="false" prefHeight="60.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Поставщики" AnchorPane.leftAnchor="305.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="customersButton" layoutX="380.0" layoutY="156.0" mnemonicParsing="false" prefHeight="60.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Заказчики" AnchorPane.leftAnchor="305.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="160.0">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="classTechnicButton" layoutX="15.0" layoutY="100.0" mnemonicParsing="false" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Классы техники" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="305.0" AnchorPane.topAnchor="160.0">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="accountingWorkButton" layoutX="221.0" layoutY="231.0" mnemonicParsing="false" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Учет работ" AnchorPane.topAnchor="231.0">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Label layoutX="272.0" layoutY="297.0" text="Запросы" AnchorPane.topAnchor="300.0">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Label>
+      <Line endX="215.300048828125" endY="183.0" layoutX="379.0" layoutY="348.0" startX="215.300048828125" startY="-338.0" />
+      <Line endX="-129.0" endY="-345.0" layoutX="134.0" layoutY="355.0" startX="-129.00001525878906" startY="176.9000244140625" />
+      <Button fx:id="conditionalRequest" layoutX="18.0" layoutY="318.0" mnemonicParsing="false" prefHeight="60.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Выполненная работа" wrapText="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="305.0" AnchorPane.topAnchor="320.0">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="parameterRequest" layoutX="313.0" layoutY="320.0" mnemonicParsing="false" prefHeight="60.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Список рабочих по зарплате" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="305.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="320.0">
+         <font>
+            <Font name="Gabriola" size="26.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="crossRequest" layoutX="313.0" layoutY="386.0" mnemonicParsing="false" prefHeight="60.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Динамика заказов по месяцам" AnchorPane.leftAnchor="305.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="390.0">
+         <font>
+            <Font name="Gabriola" size="17.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="finalRequest" layoutX="18.0" layoutY="386.0" mnemonicParsing="false" prefHeight="60.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Количество поставщиков" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="305.0" AnchorPane.topAnchor="390.0">
+         <font>
+            <Font name="Gabriola" size="29.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="joinRequest" layoutX="10.0" layoutY="459.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="285.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Общий список рабочих и техники" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="305.0" AnchorPane.topAnchor="459.0">
+         <font>
+            <Font name="Gabriola" size="19.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="findButton" layoutX="305.0" layoutY="459.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="285.0" style="-fx-background-color: #fff;" stylesheets="@style.css" text="Поиск по заказчику" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Gabriola" size="19.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" spread="0.5" width="10.0" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
